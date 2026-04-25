@@ -1,0 +1,407 @@
+/* ===== Google Font Import ===== */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+
+/* ===== CSS Custom Properties ===== */
+:root {
+  --purple: #7c3aed;
+  --purple-light: #a78bfa;
+  --teal: #14b8a6;
+  --orange: #f97316;
+  --pink: #ec4899;
+  --green: #22c55e;
+  --grey: #6b7280;
+  --white: #ffffff;
+  --text-dark: #1e1b4b;
+  --key-default: #d1d5db;
+  --shadow: 0 8px 32px rgba(124, 58, 237, 0.2);
+}
+
+/* ===== Reset & Base ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Baloo 2', 'Nunito', 'Comic Sans MS', system-ui, sans-serif;
+  background: linear-gradient(135deg, #7c3aed 0%, #ec4899 50%, #f97316 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: var(--text-dark);
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* ===== Back to Trivia Link ===== */
+.back-link {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  font-family: 'Baloo 2', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white);
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  padding: 8px 18px;
+  border-radius: 50px;
+  transition: background 0.2s, transform 0.15s;
+  z-index: 100;
+}
+
+.back-link:hover {
+  background: rgba(255, 255, 255, 0.35);
+  transform: translateY(-2px);
+}
+
+/* ===== Game Container ===== */
+#wordle-container {
+  background: var(--white);
+  border-radius: 32px;
+  box-shadow: var(--shadow);
+  max-width: 500px;
+  width: 100%;
+  padding: 28px 24px 32px;
+  text-align: center;
+  position: relative;
+}
+
+/* ===== Title ===== */
+#wordle-header {
+  margin-bottom: 16px;
+}
+
+#wordle-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--purple) 0%, var(--pink) 40%, var(--orange) 70%, var(--teal) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.2;
+  filter: drop-shadow(0 2px 4px rgba(124, 58, 237, 0.15));
+}
+
+/* ===== Guess Grid ===== */
+#grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.grid-row {
+  display: flex;
+  gap: 6px;
+}
+
+.tile {
+  width: 62px;
+  height: 62px;
+  border: 2px solid #d1d5db;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: 'Baloo 2', sans-serif;
+  color: var(--text-dark);
+  text-transform: uppercase;
+  transition: border-color 0.15s;
+  background: var(--white);
+}
+
+.tile:not(.correct):not(.present):not(.absent) {
+  /* Tiles with letters but no feedback get a darker border */
+}
+
+/* Tile feedback colors */
+.tile.correct {
+  background: var(--green);
+  border-color: var(--green);
+  color: var(--white);
+}
+
+.tile.present {
+  background: var(--orange);
+  border-color: var(--orange);
+  color: var(--white);
+}
+
+.tile.absent {
+  background: var(--grey);
+  border-color: var(--grey);
+  color: var(--white);
+}
+
+/* ===== Tile Flip Animation ===== */
+.tile.flip {
+  animation: tile-flip 0.5s ease-in-out;
+}
+
+@keyframes tile-flip {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(90deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+/* ===== Virtual Keyboard ===== */
+#keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.keyboard-row {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.key {
+  min-width: 36px;
+  height: 44px;
+  border: none;
+  border-radius: 8px;
+  background: var(--key-default);
+  color: var(--text-dark);
+  font-family: 'Baloo 2', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+  transition: background 0.15s, transform 0.1s;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.key:hover {
+  filter: brightness(0.9);
+  transform: translateY(-1px);
+}
+
+.key:active {
+  transform: translateY(1px);
+}
+
+.key-wide {
+  min-width: 65px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+/* Key feedback colors */
+.key.correct {
+  background: var(--green);
+  color: var(--white);
+}
+
+.key.present {
+  background: var(--orange);
+  color: var(--white);
+}
+
+.key.absent {
+  background: var(--grey);
+  color: var(--white);
+}
+
+/* ===== Toast Messages ===== */
+#toast-container {
+  position: fixed;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  pointer-events: none;
+}
+
+.toast {
+  background: rgba(30, 27, 75, 0.9);
+  color: var(--white);
+  font-family: 'Baloo 2', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 12px;
+  animation: toast-in 0.3s ease-out;
+  pointer-events: none;
+}
+
+.toast.fade-out {
+  animation: toast-out 0.5s ease-in forwards;
+}
+
+@keyframes toast-in {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes toast-out {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(-10px); }
+}
+
+/* ===== Game Over Overlay ===== */
+#game-over-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+#game-over-card {
+  background: var(--white);
+  border-radius: 24px;
+  padding: 36px 32px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 340px;
+  width: 90%;
+}
+
+#game-over-message {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+#play-again-btn-wordle {
+  display: inline-block;
+  padding: 14px 40px;
+  font-family: 'Baloo 2', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--white);
+  background: linear-gradient(135deg, var(--purple), var(--pink));
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(124, 58, 237, 0.35);
+  transition: transform 0.15s, box-shadow 0.2s;
+}
+
+#play-again-btn-wordle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(124, 58, 237, 0.45);
+}
+
+#play-again-btn-wordle:active {
+  transform: translateY(0);
+}
+
+/* ===== Error Screen ===== */
+#wordle-error-screen {
+  padding: 32px 16px;
+}
+
+#wordle-error-message {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ef4444;
+  background: #fca5a5;
+  border-radius: 20px;
+  padding: 24px;
+  line-height: 1.5;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  #wordle-container {
+    padding: 20px 12px 24px;
+    border-radius: 24px;
+  }
+
+  #wordle-title {
+    font-size: 1.6rem;
+  }
+
+  .tile {
+    width: 52px;
+    height: 52px;
+    font-size: 1.6rem;
+    border-radius: 8px;
+  }
+
+  .grid-row {
+    gap: 4px;
+  }
+
+  #grid-container {
+    gap: 4px;
+  }
+
+  .key {
+    min-width: 30px;
+    height: 40px;
+    font-size: 0.85rem;
+    padding: 0 5px;
+  }
+
+  .key-wide {
+    min-width: 52px;
+    font-size: 0.65rem;
+  }
+
+  .keyboard-row {
+    gap: 3px;
+  }
+
+  .back-link {
+    font-size: 0.85rem;
+    padding: 6px 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .tile {
+    width: 44px;
+    height: 44px;
+    font-size: 1.3rem;
+  }
+
+  .key {
+    min-width: 26px;
+    height: 36px;
+    font-size: 0.75rem;
+  }
+
+  .key-wide {
+    min-width: 44px;
+  }
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aaron's Fun Trivia Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+
+    <!-- Settings Menu -->
+    <div id="settings-wrapper">
+      <button id="settings-btn" aria-label="Settings">⚙️</button>
+      <div id="settings-menu" class="hidden">
+        <button id="reset-questions-btn" class="settings-option">🔄 Reset Questions</button>
+      </div>
+    </div>
+
+    <!-- Title Header (hidden until game starts) -->
+    <header id="game-header" class="hidden">
+      <h1 id="game-title">Aaron's Fun Trivia Game</h1>
+    </header>
+
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+      <h1 id="splash-title">Aaron's Fun Trivia Game</h1>
+      <p id="splash-subtitle">🎮 Pick a category! 🧠</p>
+      <div id="category-grid">
+        <button class="category-btn selected" data-category="All">🌟 All</button>
+        <button class="category-btn" data-category="Super Mario">🍄 Super Mario</button>
+        <button class="category-btn" data-category="Minecraft">⛏️ Minecraft</button>
+        <button class="category-btn" data-category="Paw Patrol">🐾 Paw Patrol</button>
+        <button class="category-btn" data-category="Fairy Tales">🏰 Fairy Tales</button>
+        <button class="category-btn" data-category="Bluey">🐕 Bluey</button>
+        <button class="category-btn" data-category="Sports">🏆 Sports</button>
+        <button class="category-btn" data-category="Math">🔢 Math</button>
+        <button class="category-btn" data-category="US Geography">🗺️ US Geography</button>
+        <button class="category-btn" data-category="Great Wolf Lodge">🐺 Great Wolf Lodge</button>
+      </div>
+      <button id="start-btn">LET'S START!</button>
+      <a href="wordle.html" class="wordle-nav-btn">🔤 Aaron's Wordle Game</a>
+    </div>
+
+    <!-- Loading / Error Screen -->
+    <div id="loading-screen" class="hidden">
+      <p id="loading-message">Loading questions...</p>
+    </div>
+
+    <div id="error-screen" class="hidden">
+      <p id="error-message"></p>
+    </div>
+
+    <!-- Game Play Screen -->
+    <main id="game-screen" class="hidden">
+
+      <!-- Score and Timer Bar -->
+      <div id="info-bar">
+        <span id="score-display">💰 Score: 0</span>
+        <div id="timer-box">
+          <div id="timer-section">
+            <span class="timer-icon">⏱️</span>
+            <span id="timer-display">15</span>
+          </div>
+          <div id="points-divider"></div>
+          <div id="points-section">
+            <span class="points-icon">💰</span>
+            <span id="points-possible">100</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Progress Indicator -->
+      <div id="progress-display">Question 1 of 10</div>
+
+      <!-- Question Display Area -->
+      <div id="question-container">
+        <p id="question-text"></p>
+      </div>
+
+      <!-- Option Buttons -->
+      <div id="options-container">
+        <button id="option-a" class="option-btn" data-option="A">
+          <span class="option-label">A</span>
+          <span class="option-text"></span>
+        </button>
+        <button id="option-b" class="option-btn" data-option="B">
+          <span class="option-label">B</span>
+          <span class="option-text"></span>
+        </button>
+        <button id="option-c" class="option-btn" data-option="C">
+          <span class="option-label">C</span>
+          <span class="option-text"></span>
+        </button>
+      </div>
+
+      <!-- Next Button (always in layout, visibility toggled) -->
+      <button id="next-btn">Next</button>
+
+    </main>
+
+    <!-- Results Screen -->
+    <div id="results-screen" class="hidden">
+      <h2 id="results-title">Game Over!</h2>
+      <div id="results-stats">
+        <div class="stat-card stat-correct">
+          <span class="stat-number" id="results-correct">0</span>
+          <span class="stat-label">Correct ✅</span>
+        </div>
+        <div class="stat-card stat-wrong">
+          <span class="stat-number" id="results-wrong">0</span>
+          <span class="stat-label">Wrong ❌</span>
+        </div>
+        <div class="stat-card stat-points">
+          <span class="stat-number" id="results-points">0</span>
+          <span class="stat-label">Points ⭐</span>
+        </div>
+      </div>
+      <p id="results-message"></p>
+      <button id="play-again-btn">Play Again!</button>
+    </div>
+
+    <!-- Confetti Animation Container -->
+    <div id="confetti-container"></div>
+
+  </div>
+
+  <script src="game.js" defer></script>
+</body>
+</html>
