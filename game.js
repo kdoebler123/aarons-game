@@ -417,6 +417,9 @@ var UIRenderer = (function () {
     getEl('game-screen').classList.remove('hidden');
     getEl('game-header').classList.remove('hidden');
 
+    // Category label
+    getEl('category-label').textContent = question.category || '';
+
     // Question text
     getEl('question-text').textContent = question.question;
 

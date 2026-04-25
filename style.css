@@ -400,8 +400,21 @@ body {
   margin-bottom: 24px;
   min-height: 100px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 8px;
+}
+
+#category-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--white);
+  background: linear-gradient(135deg, var(--purple), var(--pink));
+  padding: 4px 16px;
+  border-radius: 50px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 #question-text {
