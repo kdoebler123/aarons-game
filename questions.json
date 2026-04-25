@@ -4898,5 +4898,2505 @@
     },
     "answer": "A",
     "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What sport is played on ice with a puck?",
+    "options": {
+      "A": "Basketball",
+      "B": "Hockey",
+      "C": "Soccer"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What do you hit in baseball?",
+    "options": {
+      "A": "A puck",
+      "B": "A shuttlecock",
+      "C": "A ball"
+    },
+    "answer": "C",
+    "category": "Sports"
+  },
+  {
+    "question": "How many bases are in baseball?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What sport does Tom Brady play?",
+    "options": {
+      "A": "Basketball",
+      "B": "Baseball",
+      "C": "Football"
+    },
+    "answer": "C",
+    "category": "Sports"
+  },
+  {
+    "question": "What do you kick in soccer?",
+    "options": {
+      "A": "A ball",
+      "B": "A puck",
+      "C": "A base"
+    },
+    "answer": "A",
+    "category": "Sports"
+  },
+  {
+    "question": "How many players are on a soccer team on the field?",
+    "options": {
+      "A": "9",
+      "B": "10",
+      "C": "11"
+    },
+    "answer": "C",
+    "category": "Sports"
+  },
+  {
+    "question": "What is the Super Bowl trophy made of?",
+    "options": {
+      "A": "Gold",
+      "B": "Silver",
+      "C": "Bronze"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What sport uses a racket and a birdie?",
+    "options": {
+      "A": "Tennis",
+      "B": "Badminton",
+      "C": "Ping pong"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What color is a tennis ball?",
+    "options": {
+      "A": "White",
+      "B": "Orange",
+      "C": "Yellow-green"
+    },
+    "answer": "C",
+    "category": "Sports"
+  },
+  {
+    "question": "What NFL team has a horseshoe logo?",
+    "options": {
+      "A": "Colts",
+      "B": "Broncos",
+      "C": "Cowboys"
+    },
+    "answer": "A",
+    "category": "Sports"
+  },
+  {
+    "question": "What sport do the Yankees play?",
+    "options": {
+      "A": "Football",
+      "B": "Baseball",
+      "C": "Basketball"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What is a home run in baseball?",
+    "options": {
+      "A": "Running home",
+      "B": "Hitting the ball out of the park",
+      "C": "Stealing a base"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What do goalies try to do in soccer?",
+    "options": {
+      "A": "Score goals",
+      "B": "Stop the ball from going in the net",
+      "C": "Run the fastest"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What sport has a pitcher and a catcher?",
+    "options": {
+      "A": "Football",
+      "B": "Soccer",
+      "C": "Baseball"
+    },
+    "answer": "C",
+    "category": "Sports"
+  },
+  {
+    "question": "What is a touchdown dance called?",
+    "options": {
+      "A": "A celebration",
+      "B": "A penalty",
+      "C": "A timeout"
+    },
+    "answer": "A",
+    "category": "Sports"
+  },
+  {
+    "question": "What do you wear on your feet to play soccer?",
+    "options": {
+      "A": "Sneakers",
+      "B": "Cleats",
+      "C": "Sandals"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What sport has a goalie, defenders, and forwards?",
+    "options": {
+      "A": "Baseball",
+      "B": "Golf",
+      "C": "Soccer"
+    },
+    "answer": "C",
+    "category": "Sports"
+  },
+  {
+    "question": "What is the World Series for?",
+    "options": {
+      "A": "Football",
+      "B": "Baseball",
+      "C": "Basketball"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What NFL team is from Green Bay?",
+    "options": {
+      "A": "Bears",
+      "B": "Lions",
+      "C": "Packers"
+    },
+    "answer": "C",
+    "category": "Sports"
+  },
+  {
+    "question": "What sport uses a bat and bases?",
+    "options": {
+      "A": "Baseball",
+      "B": "Tennis",
+      "C": "Hockey"
+    },
+    "answer": "A",
+    "category": "Sports"
+  },
+  {
+    "question": "What is a strikeout in baseball?",
+    "options": {
+      "A": "Hitting a home run",
+      "B": "Getting 3 strikes",
+      "C": "Catching a fly ball"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What color jersey do the Packers wear?",
+    "options": {
+      "A": "Blue",
+      "B": "Red",
+      "C": "Green and gold"
+    },
+    "answer": "C",
+    "category": "Sports"
+  },
+  {
+    "question": "What sport has a quarterback?",
+    "options": {
+      "A": "Football",
+      "B": "Baseball",
+      "C": "Soccer"
+    },
+    "answer": "A",
+    "category": "Sports"
+  },
+  {
+    "question": "What do you throw in football?",
+    "options": {
+      "A": "A baseball",
+      "B": "A football",
+      "C": "A basketball"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What is an inning in baseball?",
+    "options": {
+      "A": "A period of play",
+      "B": "A type of pitch",
+      "C": "A home run"
+    },
+    "answer": "A",
+    "category": "Sports"
+  },
+  {
+    "question": "What sport does Steph Curry play?",
+    "options": {
+      "A": "Football",
+      "B": "Basketball",
+      "C": "Baseball"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What is a hat trick in hockey?",
+    "options": {
+      "A": "Wearing a hat",
+      "B": "Scoring 3 goals",
+      "C": "A penalty"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What do baseball players wear on their hand to catch?",
+    "options": {
+      "A": "A helmet",
+      "B": "A glove",
+      "C": "A pad"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What is the penalty box in hockey?",
+    "options": {
+      "A": "Where you score",
+      "B": "Where you sit after a penalty",
+      "C": "Where the goalie stands"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What sport has a pitcher's mound?",
+    "options": {
+      "A": "Football",
+      "B": "Soccer",
+      "C": "Baseball"
+    },
+    "answer": "C",
+    "category": "Sports"
+  },
+  {
+    "question": "What is a slam dunk worth?",
+    "options": {
+      "A": "1 point",
+      "B": "2 points",
+      "C": "3 points"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What NFL team has a star on their helmet?",
+    "options": {
+      "A": "Eagles",
+      "B": "Cowboys",
+      "C": "Giants"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What is the Stanley Cup for?",
+    "options": {
+      "A": "Hockey",
+      "B": "Football",
+      "C": "Basketball"
+    },
+    "answer": "A",
+    "category": "Sports"
+  },
+  {
+    "question": "What sport does Patrick Mahomes play?",
+    "options": {
+      "A": "Basketball",
+      "B": "Baseball",
+      "C": "Football"
+    },
+    "answer": "C",
+    "category": "Sports"
+  },
+  {
+    "question": "What is a double dribble in basketball?",
+    "options": {
+      "A": "Dribbling with two hands",
+      "B": "Scoring twice",
+      "C": "A great play"
+    },
+    "answer": "A",
+    "category": "Sports"
+  },
+  {
+    "question": "What do you call the person who throws the ball in baseball?",
+    "options": {
+      "A": "Quarterback",
+      "B": "Pitcher",
+      "C": "Goalie"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What sport has a World Cup every 4 years?",
+    "options": {
+      "A": "Baseball",
+      "B": "Basketball",
+      "C": "Soccer"
+    },
+    "answer": "C",
+    "category": "Sports"
+  },
+  {
+    "question": "What is a foul ball in baseball?",
+    "options": {
+      "A": "A ball hit outside the lines",
+      "B": "A home run",
+      "C": "A strikeout"
+    },
+    "answer": "A",
+    "category": "Sports"
+  },
+  {
+    "question": "What team does Aaron Judge play for?",
+    "options": {
+      "A": "Red Sox",
+      "B": "Yankees",
+      "C": "Dodgers"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What is a three-pointer in basketball?",
+    "options": {
+      "A": "A shot from behind the arc",
+      "B": "A free throw",
+      "C": "A dunk"
+    },
+    "answer": "A",
+    "category": "Sports"
+  },
+  {
+    "question": "What sport has a red zone?",
+    "options": {
+      "A": "Basketball",
+      "B": "Baseball",
+      "C": "Football"
+    },
+    "answer": "C",
+    "category": "Sports"
+  },
+  {
+    "question": "What is a grand slam in baseball?",
+    "options": {
+      "A": "A home run with all bases loaded",
+      "B": "Striking out 3 times",
+      "C": "Catching a fly ball"
+    },
+    "answer": "A",
+    "category": "Sports"
+  },
+  {
+    "question": "What do hockey players skate on?",
+    "options": {
+      "A": "Grass",
+      "B": "Ice",
+      "C": "Wood"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What is a penalty kick in soccer?",
+    "options": {
+      "A": "A free kick from the penalty spot",
+      "B": "A corner kick",
+      "C": "A throw-in"
+    },
+    "answer": "A",
+    "category": "Sports"
+  },
+  {
+    "question": "What sport has innings and outs?",
+    "options": {
+      "A": "Football",
+      "B": "Hockey",
+      "C": "Baseball"
+    },
+    "answer": "C",
+    "category": "Sports"
+  },
+  {
+    "question": "What is a layup in basketball?",
+    "options": {
+      "A": "A shot close to the basket",
+      "B": "A long shot",
+      "C": "A pass"
+    },
+    "answer": "A",
+    "category": "Sports"
+  },
+  {
+    "question": "What NFL team is from Chicago?",
+    "options": {
+      "A": "Packers",
+      "B": "Bears",
+      "C": "Lions"
+    },
+    "answer": "B",
+    "category": "Sports"
+  },
+  {
+    "question": "What is a fly ball in baseball?",
+    "options": {
+      "A": "A ball hit high in the air",
+      "B": "A ground ball",
+      "C": "A foul ball"
+    },
+    "answer": "A",
+    "category": "Sports"
+  },
+  {
+    "question": "What sport does Lionel Messi play?",
+    "options": {
+      "A": "Basketball",
+      "B": "Football",
+      "C": "Soccer"
+    },
+    "answer": "C",
+    "category": "Sports"
+  },
+  {
+    "question": "What is a field goal in football worth?",
+    "options": {
+      "A": "1 point",
+      "B": "2 points",
+      "C": "3 points"
+    },
+    "answer": "C",
+    "category": "Sports"
+  },
+  {
+    "question": "What does Bluey's family do at the park?",
+    "options": {
+      "A": "Play games",
+      "B": "Read books",
+      "C": "Sleep"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What is Chloe in Bluey?",
+    "options": {
+      "A": "A Dalmatian",
+      "B": "A Labrador",
+      "C": "A Poodle"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What does Bingo call her dad?",
+    "options": {
+      "A": "Daddy",
+      "B": "Dad",
+      "C": "Papa"
+    },
+    "answer": "B",
+    "category": "Bluey"
+  },
+  {
+    "question": "What is the Takeaway episode about?",
+    "options": {
+      "A": "Getting takeout food",
+      "B": "Going to school",
+      "C": "Playing at the beach"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What does Bluey pretend to be in Doctors?",
+    "options": {
+      "A": "A doctor",
+      "B": "A teacher",
+      "C": "A chef"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What is Calypso's job?",
+    "options": {
+      "A": "Doctor",
+      "B": "Teacher",
+      "C": "Chef"
+    },
+    "answer": "B",
+    "category": "Bluey"
+  },
+  {
+    "question": "What does Bingo find in Bin Night?",
+    "options": {
+      "A": "A toy",
+      "B": "A treasure",
+      "C": "A bug"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What is the Camping episode about?",
+    "options": {
+      "A": "Camping and making a friend",
+      "B": "Going to school",
+      "C": "Playing at home"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What does Bluey do in the Sleepover episode?",
+    "options": {
+      "A": "Has a sleepover with Muffin",
+      "B": "Goes camping",
+      "C": "Plays at school"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What is Stripe's job?",
+    "options": {
+      "A": "He works in an office",
+      "B": "He is a teacher",
+      "C": "He is a chef"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What does Bluey learn about in Flat Pack?",
+    "options": {
+      "A": "Building furniture and life",
+      "B": "Cooking",
+      "C": "Swimming"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "Who is Lila in Bluey?",
+    "options": {
+      "A": "Bingo's friend",
+      "B": "Bluey's teacher",
+      "C": "A neighbor"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What game do they play in Shadowlands?",
+    "options": {
+      "A": "Shadow tag",
+      "B": "Hide and seek",
+      "C": "Soccer"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What is the Stumpfest episode about?",
+    "options": {
+      "A": "Pulling out a tree stump",
+      "B": "A race",
+      "C": "A party"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What does Muffin refuse to do in Sleepytime?",
+    "options": {
+      "A": "Eat dinner",
+      "B": "Go to sleep",
+      "C": "Play outside"
+    },
+    "answer": "B",
+    "category": "Bluey"
+  },
+  {
+    "question": "What planet does Bingo dream about in Sleepytime?",
+    "options": {
+      "A": "Mars",
+      "B": "Jupiter",
+      "C": "Many planets in the solar system"
+    },
+    "answer": "C",
+    "category": "Bluey"
+  },
+  {
+    "question": "What is Rusty's favorite thing?",
+    "options": {
+      "A": "Farm life and the outback",
+      "B": "Video games",
+      "C": "Reading"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What does Bandit pretend to be in Tickle Crabs?",
+    "options": {
+      "A": "A crab",
+      "B": "A fish",
+      "C": "A shark"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What is the Baby Race episode about?",
+    "options": {
+      "A": "Babies learning to walk",
+      "B": "A running race",
+      "C": "A car race"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What does Bluey do at the playground?",
+    "options": {
+      "A": "Plays with friends",
+      "B": "Does homework",
+      "C": "Sleeps"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What is Nana's house like?",
+    "options": {
+      "A": "Fun with lots of things to explore",
+      "B": "Boring",
+      "C": "Very small"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What does Chilli teach Bluey about?",
+    "options": {
+      "A": "Being patient and kind",
+      "B": "How to cook",
+      "C": "How to drive"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What is the Wagon Ride episode about?",
+    "options": {
+      "A": "Riding in a wagon at the park",
+      "B": "Going to school",
+      "C": "A boat ride"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What does Bluey do when she is sad?",
+    "options": {
+      "A": "Talks to her family",
+      "B": "Hides forever",
+      "C": "Runs away"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What makes Bluey special?",
+    "options": {
+      "A": "Her imagination and love for play",
+      "B": "She can fly",
+      "C": "She is invisible"
+    },
+    "answer": "A",
+    "category": "Bluey"
+  },
+  {
+    "question": "What did the emperor wear in The Emperor's New Clothes?",
+    "options": {
+      "A": "A crown",
+      "B": "Nothing — he was tricked",
+      "C": "A cape"
+    },
+    "answer": "B",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "Who is the mermaid who wanted to be human?",
+    "options": {
+      "A": "The Little Mermaid",
+      "B": "Goldilocks",
+      "C": "Cinderella"
+    },
+    "answer": "A",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "What did the Little Mermaid trade for legs?",
+    "options": {
+      "A": "Her crown",
+      "B": "Her voice",
+      "C": "Her hair"
+    },
+    "answer": "B",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "Who is the boy who never grows up?",
+    "options": {
+      "A": "Jack",
+      "B": "Pinocchio",
+      "C": "Peter Pan"
+    },
+    "answer": "C",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "Where does Peter Pan live?",
+    "options": {
+      "A": "Neverland",
+      "B": "Wonderland",
+      "C": "The forest"
+    },
+    "answer": "A",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "What did the three bears find when they came home?",
+    "options": {
+      "A": "A wolf",
+      "B": "Goldilocks sleeping",
+      "C": "A mess"
+    },
+    "answer": "B",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "What is Thumbelina?",
+    "options": {
+      "A": "A tiny girl",
+      "B": "A giant",
+      "C": "A fairy"
+    },
+    "answer": "A",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "What did the shoemaker find every morning?",
+    "options": {
+      "A": "New shoes made by elves",
+      "B": "Gold coins",
+      "C": "A magic lamp"
+    },
+    "answer": "A",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "Who went down the rabbit hole?",
+    "options": {
+      "A": "Snow White",
+      "B": "Alice",
+      "C": "Rapunzel"
+    },
+    "answer": "B",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "What is Wonderland?",
+    "options": {
+      "A": "A magical place Alice visits",
+      "B": "A school",
+      "C": "A park"
+    },
+    "answer": "A",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "What did the magic beans grow into?",
+    "options": {
+      "A": "A flower",
+      "B": "A tree",
+      "C": "A giant beanstalk"
+    },
+    "answer": "C",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "Who is the Snow Queen?",
+    "options": {
+      "A": "A kind queen",
+      "B": "An icy villain",
+      "C": "A princess"
+    },
+    "answer": "B",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "What did the fisherman catch in the magic fish story?",
+    "options": {
+      "A": "A golden fish that grants wishes",
+      "B": "A shark",
+      "C": "A treasure chest"
+    },
+    "answer": "A",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "What is the moral of the Tortoise and the Hare?",
+    "options": {
+      "A": "Slow and steady wins the race",
+      "B": "Be the fastest",
+      "C": "Never try"
+    },
+    "answer": "A",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "Who is the boy who cried wolf?",
+    "options": {
+      "A": "A shepherd who lied about a wolf",
+      "B": "A prince",
+      "C": "A farmer"
+    },
+    "answer": "A",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "What happened when the boy cried wolf too many times?",
+    "options": {
+      "A": "Nobody believed him",
+      "B": "He got a prize",
+      "C": "The wolf became his friend"
+    },
+    "answer": "A",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "What is the magic word in Ali Baba?",
+    "options": {
+      "A": "Abracadabra",
+      "B": "Open Sesame",
+      "C": "Please"
+    },
+    "answer": "B",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "Who wore red shoes that wouldn't stop dancing?",
+    "options": {
+      "A": "Cinderella",
+      "B": "A girl in The Red Shoes",
+      "C": "Snow White"
+    },
+    "answer": "B",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "What did the princess feel under her mattresses?",
+    "options": {
+      "A": "A pea",
+      "B": "A rock",
+      "C": "A coin"
+    },
+    "answer": "A",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "How many mattresses were on the pea?",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "20"
+    },
+    "answer": "C",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "Who turned into a beast until someone loved him?",
+    "options": {
+      "A": "The Beast from Beauty and the Beast",
+      "B": "The wolf",
+      "C": "The giant"
+    },
+    "answer": "A",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "What is Beauty's real name in Beauty and the Beast?",
+    "options": {
+      "A": "Belle",
+      "B": "Rose",
+      "C": "Lily"
+    },
+    "answer": "A",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "What did the fox say to the crow to get the cheese?",
+    "options": {
+      "A": "You have a beautiful voice — sing for me",
+      "B": "Give me the cheese",
+      "C": "I am hungry"
+    },
+    "answer": "A",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "Who laid a golden egg?",
+    "options": {
+      "A": "A chicken",
+      "B": "A goose",
+      "C": "A duck"
+    },
+    "answer": "B",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "What is the moral of the Ant and the Grasshopper?",
+    "options": {
+      "A": "Work hard and prepare",
+      "B": "Play all day",
+      "C": "Sleep is important"
+    },
+    "answer": "A",
+    "category": "Fairy Tales"
+  },
+  {
+    "question": "What is 11 + 4?",
+    "options": {
+      "A": "14",
+      "B": "15",
+      "C": "16"
+    },
+    "answer": "B",
+    "category": "Math"
+  },
+  {
+    "question": "What is 18 - 7?",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "11"
+    },
+    "answer": "C",
+    "category": "Math"
+  },
+  {
+    "question": "What is 6 + 8?",
+    "options": {
+      "A": "14",
+      "B": "13",
+      "C": "15"
+    },
+    "answer": "A",
+    "category": "Math"
+  },
+  {
+    "question": "What is 20 - 12?",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "9"
+    },
+    "answer": "B",
+    "category": "Math"
+  },
+  {
+    "question": "What is 9 + 8?",
+    "options": {
+      "A": "16",
+      "B": "18",
+      "C": "17"
+    },
+    "answer": "C",
+    "category": "Math"
+  },
+  {
+    "question": "What is 15 - 9?",
+    "options": {
+      "A": "6",
+      "B": "5",
+      "C": "7"
+    },
+    "answer": "A",
+    "category": "Math"
+  },
+  {
+    "question": "What is 7 + 6?",
+    "options": {
+      "A": "12",
+      "B": "13",
+      "C": "14"
+    },
+    "answer": "B",
+    "category": "Math"
+  },
+  {
+    "question": "What is 19 - 11?",
+    "options": {
+      "A": "7",
+      "B": "9",
+      "C": "8"
+    },
+    "answer": "C",
+    "category": "Math"
+  },
+  {
+    "question": "What is 5 + 9?",
+    "options": {
+      "A": "14",
+      "B": "13",
+      "C": "15"
+    },
+    "answer": "A",
+    "category": "Math"
+  },
+  {
+    "question": "What is 16 - 7?",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "10"
+    },
+    "answer": "B",
+    "category": "Math"
+  },
+  {
+    "question": "What is 8 + 6?",
+    "options": {
+      "A": "13",
+      "B": "15",
+      "C": "14"
+    },
+    "answer": "C",
+    "category": "Math"
+  },
+  {
+    "question": "What is 13 - 8?",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "6"
+    },
+    "answer": "A",
+    "category": "Math"
+  },
+  {
+    "question": "What is 10 + 7?",
+    "options": {
+      "A": "16",
+      "B": "17",
+      "C": "18"
+    },
+    "answer": "B",
+    "category": "Math"
+  },
+  {
+    "question": "What is 20 - 13?",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "7"
+    },
+    "answer": "C",
+    "category": "Math"
+  },
+  {
+    "question": "What is 4 + 9?",
+    "options": {
+      "A": "13",
+      "B": "12",
+      "C": "14"
+    },
+    "answer": "A",
+    "category": "Math"
+  },
+  {
+    "question": "What is 17 - 8?",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "10"
+    },
+    "answer": "B",
+    "category": "Math"
+  },
+  {
+    "question": "What is 3 + 9?",
+    "options": {
+      "A": "11",
+      "B": "13",
+      "C": "12"
+    },
+    "answer": "C",
+    "category": "Math"
+  },
+  {
+    "question": "What is 14 - 9?",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "6"
+    },
+    "answer": "A",
+    "category": "Math"
+  },
+  {
+    "question": "What is 8 + 9?",
+    "options": {
+      "A": "16",
+      "B": "17",
+      "C": "18"
+    },
+    "answer": "B",
+    "category": "Math"
+  },
+  {
+    "question": "What is 20 - 8?",
+    "options": {
+      "A": "11",
+      "B": "13",
+      "C": "12"
+    },
+    "answer": "C",
+    "category": "Math"
+  },
+  {
+    "question": "What is 6 + 9?",
+    "options": {
+      "A": "15",
+      "B": "14",
+      "C": "16"
+    },
+    "answer": "A",
+    "category": "Math"
+  },
+  {
+    "question": "What is 18 - 10?",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "9"
+    },
+    "answer": "B",
+    "category": "Math"
+  },
+  {
+    "question": "What is 7 + 5?",
+    "options": {
+      "A": "11",
+      "B": "13",
+      "C": "12"
+    },
+    "answer": "C",
+    "category": "Math"
+  },
+  {
+    "question": "What is 15 - 8?",
+    "options": {
+      "A": "7",
+      "B": "6",
+      "C": "8"
+    },
+    "answer": "A",
+    "category": "Math"
+  },
+  {
+    "question": "What is 9 + 7?",
+    "options": {
+      "A": "15",
+      "B": "16",
+      "C": "17"
+    },
+    "answer": "B",
+    "category": "Math"
+  },
+  {
+    "question": "What do you use to make a shield?",
+    "options": {
+      "A": "Iron and planks",
+      "B": "Gold",
+      "C": "Diamonds"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What mob drops gunpowder?",
+    "options": {
+      "A": "Zombie",
+      "B": "Creeper",
+      "C": "Skeleton"
+    },
+    "answer": "B",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What do you need to make a compass?",
+    "options": {
+      "A": "Iron and redstone",
+      "B": "Gold and diamond",
+      "C": "Wood and stone"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What color are zombie eyes?",
+    "options": {
+      "A": "Red",
+      "B": "Green",
+      "C": "White"
+    },
+    "answer": "B",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What do you feed wolves to tame them?",
+    "options": {
+      "A": "Steak",
+      "B": "Fish",
+      "C": "Bones"
+    },
+    "answer": "C",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What do parrots do in Minecraft?",
+    "options": {
+      "A": "Dance to music",
+      "B": "Fight mobs",
+      "C": "Mine blocks"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What is the End in Minecraft?",
+    "options": {
+      "A": "A dark dimension with the Ender Dragon",
+      "B": "The start of the game",
+      "C": "A village"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What do you use to make a map?",
+    "options": {
+      "A": "Paper and a compass",
+      "B": "Wood and iron",
+      "C": "Gold and diamond"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What mob teleports in Minecraft?",
+    "options": {
+      "A": "Creeper",
+      "B": "Enderman",
+      "C": "Zombie"
+    },
+    "answer": "B",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What do foxes carry in their mouth?",
+    "options": {
+      "A": "Items they pick up",
+      "B": "Nothing",
+      "C": "Bones"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What is a village in Minecraft?",
+    "options": {
+      "A": "A place where villagers live",
+      "B": "A dungeon",
+      "C": "A cave"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What do you use to color wool?",
+    "options": {
+      "A": "Dye",
+      "B": "Paint",
+      "C": "Ink"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What is redstone used for?",
+    "options": {
+      "A": "Making machines and circuits",
+      "B": "Eating",
+      "C": "Building walls"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What do you get from killing a blaze?",
+    "options": {
+      "A": "Blaze rods",
+      "B": "Diamonds",
+      "C": "Gold"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What biome has mushrooms everywhere?",
+    "options": {
+      "A": "Mushroom Island",
+      "B": "Desert",
+      "C": "Plains"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What do you need to go to the End?",
+    "options": {
+      "A": "Ender pearls and blaze powder",
+      "B": "Gold blocks",
+      "C": "Diamond blocks"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What is a creeper afraid of?",
+    "options": {
+      "A": "Cats",
+      "B": "Dogs",
+      "C": "Chickens"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What do you use to make bread?",
+    "options": {
+      "A": "Wheat",
+      "B": "Sugar",
+      "C": "Eggs"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What is an iron golem?",
+    "options": {
+      "A": "A protector of villages",
+      "B": "A monster",
+      "C": "A pet"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What do you get from smelting sand?",
+    "options": {
+      "A": "Glass",
+      "B": "Stone",
+      "C": "Iron"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What is the Nether?",
+    "options": {
+      "A": "A fiery dimension",
+      "B": "An ocean",
+      "C": "A forest"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What mob lives in the Nether?",
+    "options": {
+      "A": "Ghast",
+      "B": "Cow",
+      "C": "Chicken"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What do you use to make a door?",
+    "options": {
+      "A": "Planks",
+      "B": "Iron only",
+      "C": "Glass"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What is a spawner in Minecraft?",
+    "options": {
+      "A": "A block that creates mobs",
+      "B": "A chest",
+      "C": "A crafting table"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What do you use to make a boat?",
+    "options": {
+      "A": "Planks",
+      "B": "Iron",
+      "C": "Gold"
+    },
+    "answer": "A",
+    "category": "Minecraft"
+  },
+  {
+    "question": "What is Rex's special ability?",
+    "options": {
+      "A": "Dinosaur rescue",
+      "B": "Flying",
+      "C": "Swimming"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What does Liberty drive?",
+    "options": {
+      "A": "A scooter",
+      "B": "A car",
+      "C": "A helicopter"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What is the Lookout Tower used for?",
+    "options": {
+      "A": "Watching for trouble and launching missions",
+      "B": "Sleeping",
+      "C": "Cooking"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What does Rubble love to eat?",
+    "options": {
+      "A": "Treats and snacks",
+      "B": "Vegetables",
+      "C": "Fish"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What is Chase afraid of?",
+    "options": {
+      "A": "Cats",
+      "B": "Water",
+      "C": "Heights"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What does Marshall use to put out fires?",
+    "options": {
+      "A": "Water from his truck",
+      "B": "Sand",
+      "C": "A blanket"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What is Skye's helicopter called?",
+    "options": {
+      "A": "Her pup copter",
+      "B": "Sky flyer",
+      "C": "Air pup"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "Who is the rival mayor?",
+    "options": {
+      "A": "Mayor Humdinger",
+      "B": "Mayor Goodway",
+      "C": "Mayor Ryder"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What city is in the Paw Patrol movie?",
+    "options": {
+      "A": "Adventure City",
+      "B": "Paw City",
+      "C": "Dog Town"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What does Rocky not like?",
+    "options": {
+      "A": "Water",
+      "B": "Food",
+      "C": "Playing"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What is Zuma's favorite activity?",
+    "options": {
+      "A": "Water sports",
+      "B": "Reading",
+      "C": "Cooking"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What does Everest drive?",
+    "options": {
+      "A": "A snow plow",
+      "B": "A fire truck",
+      "C": "A police car"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "Who takes care of Everest?",
+    "options": {
+      "A": "Jake",
+      "B": "Ryder",
+      "C": "Farmer Al"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What does the Paw Patrol do on Christmas?",
+    "options": {
+      "A": "Help Santa",
+      "B": "Go on vacation",
+      "C": "Sleep all day"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What is Rubble's breed?",
+    "options": {
+      "A": "English Bulldog",
+      "B": "Poodle",
+      "C": "Dalmatian"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What does Tracker live in?",
+    "options": {
+      "A": "The jungle",
+      "B": "The city",
+      "C": "The ocean"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What is the Mighty Pups special power?",
+    "options": {
+      "A": "Super powers from a meteor",
+      "B": "They can fly",
+      "C": "They are invisible"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What does Chase's megaphone do?",
+    "options": {
+      "A": "Makes his voice loud",
+      "B": "Plays music",
+      "C": "Shoots water"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What is Rubble's catchphrase?",
+    "options": {
+      "A": "Rubble on the double!",
+      "B": "Let's dig!",
+      "C": "Ready to build!"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What does Ryder use to call the pups?",
+    "options": {
+      "A": "His pup pad",
+      "B": "A phone",
+      "C": "A whistle"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What is the Sea Patrol about?",
+    "options": {
+      "A": "Ocean rescue missions",
+      "B": "Space missions",
+      "C": "Mountain rescue"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What does Marshall's ladder truck do?",
+    "options": {
+      "A": "Reaches high places",
+      "B": "Digs holes",
+      "C": "Flies"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What is Sweetie in Paw Patrol?",
+    "options": {
+      "A": "A sneaky royal pup",
+      "B": "A nice cat",
+      "C": "A bird"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What does the Air Patroller do?",
+    "options": {
+      "A": "Flies the pups to missions",
+      "B": "Swims underwater",
+      "C": "Digs tunnels"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What is Ryder's age?",
+    "options": {
+      "A": "10 years old",
+      "B": "15 years old",
+      "C": "8 years old"
+    },
+    "answer": "A",
+    "category": "Paw Patrol"
+  },
+  {
+    "question": "What is the name of Mario's evil twin?",
+    "options": {
+      "A": "Wario",
+      "B": "Waluigi",
+      "C": "Bowser Jr"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What is Luigi's evil twin called?",
+    "options": {
+      "A": "Wario",
+      "B": "Waluigi",
+      "C": "Toad"
+    },
+    "answer": "B",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What does the blue shell do in Mario Kart?",
+    "options": {
+      "A": "Hits the player in first place",
+      "B": "Makes you faster",
+      "C": "Gives you coins"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What is the name of Bowser's flying ship?",
+    "options": {
+      "A": "The Airship",
+      "B": "The Doom Ship",
+      "C": "The Koopa Cruiser"
+    },
+    "answer": "C",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What does the Mega Mushroom do?",
+    "options": {
+      "A": "Makes Mario giant",
+      "B": "Makes Mario tiny",
+      "C": "Gives Mario a star"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What is Rosalina's home?",
+    "options": {
+      "A": "The Comet Observatory",
+      "B": "Mushroom Kingdom",
+      "C": "Bowser's Castle"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What are the little star creatures called?",
+    "options": {
+      "A": "Lumas",
+      "B": "Toads",
+      "C": "Goombas"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What does the Propeller Mushroom do?",
+    "options": {
+      "A": "Lets Mario fly up",
+      "B": "Makes Mario swim fast",
+      "C": "Gives Mario fire"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What is the name of the ghost house levels?",
+    "options": {
+      "A": "Ghost Houses",
+      "B": "Boo Mansions",
+      "C": "Haunted Halls"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What does Boo do when you look at it?",
+    "options": {
+      "A": "Freezes and covers its face",
+      "B": "Attacks you",
+      "C": "Runs away"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What is the name of the desert world boss?",
+    "options": {
+      "A": "Pokey",
+      "B": "Goomba King",
+      "C": "Dry Bones"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What does the Ice Flower do?",
+    "options": {
+      "A": "Lets Mario throw ice balls",
+      "B": "Makes Mario slide",
+      "C": "Freezes the screen"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What is Dry Bones?",
+    "options": {
+      "A": "A skeleton Koopa",
+      "B": "A ghost",
+      "C": "A mushroom"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What does the P-Switch do?",
+    "options": {
+      "A": "Turns blocks into coins or coins into blocks",
+      "B": "Makes Mario fly",
+      "C": "Opens a door"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What is the name of the water world?",
+    "options": {
+      "A": "World 3 — Water Land",
+      "B": "World 1 — Grass Land",
+      "C": "World 8 — Dark Land"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What does the Boomerang Flower do?",
+    "options": {
+      "A": "Lets Mario throw boomerangs",
+      "B": "Makes Mario spin",
+      "C": "Gives Mario wings"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What is King Boo?",
+    "options": {
+      "A": "The king of all Boos",
+      "B": "A friendly ghost",
+      "C": "A power-up"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What game does Luigi catch ghosts in?",
+    "options": {
+      "A": "Luigi's Mansion",
+      "B": "Mario Party",
+      "C": "Mario Kart"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What does Luigi use to catch ghosts?",
+    "options": {
+      "A": "The Poltergust vacuum",
+      "B": "A net",
+      "C": "His hands"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What is the name of the cloud enemy?",
+    "options": {
+      "A": "Lakitu",
+      "B": "Boo",
+      "C": "Shy Guy"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What does Lakitu throw?",
+    "options": {
+      "A": "Spiny eggs",
+      "B": "Fireballs",
+      "C": "Coins"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What is a Thwomp?",
+    "options": {
+      "A": "A big stone block that falls on you",
+      "B": "A mushroom",
+      "C": "A power-up"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What is the name of the penguin in Mario 64?",
+    "options": {
+      "A": "Tuxie",
+      "B": "Penny",
+      "C": "Pete"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What does Mario collect in Super Mario 64?",
+    "options": {
+      "A": "Power Stars",
+      "B": "Coins only",
+      "C": "Mushrooms only"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What is Rainbow Road?",
+    "options": {
+      "A": "A colorful race track in Mario Kart",
+      "B": "A world in Mario Bros",
+      "C": "A power-up"
+    },
+    "answer": "A",
+    "category": "Super Mario"
+  },
+  {
+    "question": "What state has the Alamo?",
+    "options": {
+      "A": "Texas",
+      "B": "Arizona",
+      "C": "New Mexico"
+    },
+    "answer": "A",
+    "category": "US Geography"
+  },
+  {
+    "question": "What is the capital of Indiana?",
+    "options": {
+      "A": "Fort Wayne",
+      "B": "Indianapolis",
+      "C": "Gary"
+    },
+    "answer": "B",
+    "category": "US Geography"
+  },
+  {
+    "question": "What state is known for lobster?",
+    "options": {
+      "A": "Florida",
+      "B": "Alaska",
+      "C": "Maine"
+    },
+    "answer": "C",
+    "category": "US Geography"
+  },
+  {
+    "question": "What is the capital of Kentucky?",
+    "options": {
+      "A": "Frankfort",
+      "B": "Louisville",
+      "C": "Lexington"
+    },
+    "answer": "A",
+    "category": "US Geography"
+  },
+  {
+    "question": "What great lake touches Michigan and Ohio?",
+    "options": {
+      "A": "Lake Huron",
+      "B": "Lake Erie",
+      "C": "Lake Michigan"
+    },
+    "answer": "B",
+    "category": "US Geography"
+  },
+  {
+    "question": "What state is known for corn?",
+    "options": {
+      "A": "Iowa",
+      "B": "Maine",
+      "C": "Alaska"
+    },
+    "answer": "A",
+    "category": "US Geography"
+  },
+  {
+    "question": "What is the capital of Oregon?",
+    "options": {
+      "A": "Portland",
+      "B": "Salem",
+      "C": "Eugene"
+    },
+    "answer": "B",
+    "category": "US Geography"
+  },
+  {
+    "question": "What state has the Gateway Arch?",
+    "options": {
+      "A": "Missouri",
+      "B": "Kansas",
+      "C": "Illinois"
+    },
+    "answer": "A",
+    "category": "US Geography"
+  },
+  {
+    "question": "What is the capital of Missouri?",
+    "options": {
+      "A": "St. Louis",
+      "B": "Kansas City",
+      "C": "Jefferson City"
+    },
+    "answer": "C",
+    "category": "US Geography"
+  },
+  {
+    "question": "What state is known for the Everglades?",
+    "options": {
+      "A": "Florida",
+      "B": "Louisiana",
+      "C": "Georgia"
+    },
+    "answer": "A",
+    "category": "US Geography"
+  },
+  {
+    "question": "What is the capital of Minnesota?",
+    "options": {
+      "A": "Minneapolis",
+      "B": "St. Paul",
+      "C": "Duluth"
+    },
+    "answer": "B",
+    "category": "US Geography"
+  },
+  {
+    "question": "What state has the Space Needle?",
+    "options": {
+      "A": "Oregon",
+      "B": "California",
+      "C": "Washington"
+    },
+    "answer": "C",
+    "category": "US Geography"
+  },
+  {
+    "question": "What is the capital of Nevada?",
+    "options": {
+      "A": "Las Vegas",
+      "B": "Carson City",
+      "C": "Reno"
+    },
+    "answer": "B",
+    "category": "US Geography"
+  },
+  {
+    "question": "What state is known for the Kentucky Derby?",
+    "options": {
+      "A": "Kentucky",
+      "B": "Tennessee",
+      "C": "Virginia"
+    },
+    "answer": "A",
+    "category": "US Geography"
+  },
+  {
+    "question": "What is the capital of Wisconsin?",
+    "options": {
+      "A": "Milwaukee",
+      "B": "Green Bay",
+      "C": "Madison"
+    },
+    "answer": "C",
+    "category": "US Geography"
+  },
+  {
+    "question": "What state has the most volcanoes?",
+    "options": {
+      "A": "Hawaii",
+      "B": "Alaska",
+      "C": "Washington"
+    },
+    "answer": "B",
+    "category": "US Geography"
+  },
+  {
+    "question": "What is the capital of Louisiana?",
+    "options": {
+      "A": "New Orleans",
+      "B": "Baton Rouge",
+      "C": "Shreveport"
+    },
+    "answer": "B",
+    "category": "US Geography"
+  },
+  {
+    "question": "What state is known for the Indy 500?",
+    "options": {
+      "A": "Indiana",
+      "B": "Ohio",
+      "C": "Michigan"
+    },
+    "answer": "A",
+    "category": "US Geography"
+  },
+  {
+    "question": "What is the capital of Alabama?",
+    "options": {
+      "A": "Birmingham",
+      "B": "Mobile",
+      "C": "Montgomery"
+    },
+    "answer": "C",
+    "category": "US Geography"
+  },
+  {
+    "question": "What state has Waikiki Beach?",
+    "options": {
+      "A": "California",
+      "B": "Hawaii",
+      "C": "Florida"
+    },
+    "answer": "B",
+    "category": "US Geography"
+  },
+  {
+    "question": "What is the capital of Connecticut?",
+    "options": {
+      "A": "Hartford",
+      "B": "New Haven",
+      "C": "Bridgeport"
+    },
+    "answer": "A",
+    "category": "US Geography"
+  },
+  {
+    "question": "What state is known for maple leaves?",
+    "options": {
+      "A": "Vermont",
+      "B": "Maine",
+      "C": "New Hampshire"
+    },
+    "answer": "A",
+    "category": "US Geography"
+  },
+  {
+    "question": "What is the capital of Iowa?",
+    "options": {
+      "A": "Cedar Rapids",
+      "B": "Des Moines",
+      "C": "Davenport"
+    },
+    "answer": "B",
+    "category": "US Geography"
+  },
+  {
+    "question": "What state has the Badlands?",
+    "options": {
+      "A": "North Dakota",
+      "B": "South Dakota",
+      "C": "Montana"
+    },
+    "answer": "B",
+    "category": "US Geography"
+  },
+  {
+    "question": "What is the capital of New Jersey?",
+    "options": {
+      "A": "Newark",
+      "B": "Atlantic City",
+      "C": "Trenton"
+    },
+    "answer": "C",
+    "category": "US Geography"
+  },
+  {
+    "question": "What is the water park temperature at Great Wolf Lodge?",
+    "options": {
+      "A": "84 degrees",
+      "B": "75 degrees",
+      "C": "90 degrees"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What do you earn when you complete MagiQuest?",
+    "options": {
+      "A": "Master Magi title",
+      "B": "A trophy",
+      "C": "A medal"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What is the lazy river good for?",
+    "options": {
+      "A": "Relaxing and floating",
+      "B": "Racing",
+      "C": "Diving"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What can you make at Build-A-Bear?",
+    "options": {
+      "A": "A stuffed animal",
+      "B": "A toy car",
+      "C": "A puzzle"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What is the wave pool?",
+    "options": {
+      "A": "A pool that makes waves",
+      "B": "A hot tub",
+      "C": "A slide"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What do you find at the Northern Lights Arcade?",
+    "options": {
+      "A": "Games and prizes",
+      "B": "Food",
+      "C": "A pool"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What is a cabana at the water park?",
+    "options": {
+      "A": "A private seating area",
+      "B": "A slide",
+      "C": "A pool"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What is the Howl at the Moon event?",
+    "options": {
+      "A": "A glow party",
+      "B": "A movie night",
+      "C": "A cooking class"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What can you do at the Great Wolf Lodge spa?",
+    "options": {
+      "A": "Get pampered",
+      "B": "Go swimming",
+      "C": "Play games"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What is the Cub Club?",
+    "options": {
+      "A": "Activities for little kids",
+      "B": "A restaurant",
+      "C": "A pool"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What do you get with a Wolf Pass?",
+    "options": {
+      "A": "Access to many attractions",
+      "B": "Just the water park",
+      "C": "Just food"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What is the story time event?",
+    "options": {
+      "A": "A bedtime story with Wiley the Wolf",
+      "B": "A movie",
+      "C": "A game show"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What kind of rooms does Great Wolf Lodge have?",
+    "options": {
+      "A": "Themed suites",
+      "B": "Only basic rooms",
+      "C": "Tents"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What is the KidCabin suite?",
+    "options": {
+      "A": "A room with a cabin for kids",
+      "B": "A restaurant",
+      "C": "A pool area"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What can you do at the Creation Station?",
+    "options": {
+      "A": "Make crafts",
+      "B": "Go swimming",
+      "C": "Play video games"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What is Wiley the Wolf?",
+    "options": {
+      "A": "The Great Wolf Lodge mascot character",
+      "B": "A ride",
+      "C": "A restaurant"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What do you get at the Candy Company?",
+    "options": {
+      "A": "Candy and sweets",
+      "B": "Pizza",
+      "C": "Toys"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What is the Scooops Kid Spa?",
+    "options": {
+      "A": "An ice cream themed spa for kids",
+      "B": "A pool",
+      "C": "A restaurant"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What can you do at Ten Paw Alley?",
+    "options": {
+      "A": "Go bowling",
+      "B": "Go swimming",
+      "C": "Play tag"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What is the Clubhouse Crew?",
+    "options": {
+      "A": "Characters kids can meet",
+      "B": "A restaurant",
+      "C": "A pool"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What does the MagiQuest wand look like?",
+    "options": {
+      "A": "A magic wand with a crystal",
+      "B": "A stick",
+      "C": "A flashlight"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What is the Loose Moose restaurant?",
+    "options": {
+      "A": "A family restaurant at the lodge",
+      "B": "A pool bar",
+      "C": "A gift shop"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What can you buy at the gift shop?",
+    "options": {
+      "A": "Souvenirs and wolf toys",
+      "B": "Only food",
+      "C": "Only clothes"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What is the best part about Great Wolf Lodge for kids?",
+    "options": {
+      "A": "The indoor water park",
+      "B": "The parking lot",
+      "C": "The lobby"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
+  },
+  {
+    "question": "What makes Great Wolf Lodge different from other hotels?",
+    "options": {
+      "A": "It has a giant indoor water park",
+      "B": "It has a zoo",
+      "C": "It has a movie theater"
+    },
+    "answer": "A",
+    "category": "Great Wolf Lodge"
   }
 ]
