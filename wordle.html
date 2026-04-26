@@ -12,6 +12,14 @@
 
   <div id="wordle-container">
 
+    <!-- Settings Menu -->
+    <div id="wordle-settings-wrapper">
+      <button id="wordle-settings-btn" aria-label="Settings">⚙️</button>
+      <div id="wordle-settings-menu" class="hidden">
+        <button id="reset-words-btn" class="wordle-settings-option">🔄 Reset Words</button>
+      </div>
+    </div>
+
     <!-- Title -->
     <header id="wordle-header">
       <h1 id="wordle-title">Aaron's Wordle Game</h1>
@@ -73,7 +81,7 @@
     <!-- Game Over Overlay -->
     <div id="game-over-overlay" class="hidden">
       <div id="game-over-card">
-        <button id="close-overlay-btn" aria-label="Close">✕</button>
+        <button id="close-overlay-btn" aria-label="Close">✖</button>
         <p id="game-over-message"></p>
         <p id="game-over-word"></p>
         <button id="play-again-btn-wordle">Play Again 🔄</button>

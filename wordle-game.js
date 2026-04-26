@@ -60,6 +60,64 @@ function pickRandomWord(words) {
   return words[Math.floor(Math.random() * words.length)];
 }
 
+// ===== WordTracker: Tracks used words to avoid repeats =====
+
+var WordTracker = (function () {
+  var STORAGE_KEY = 'wordle_used_words';
+
+  function getUsedWords() {
+    try {
+      var raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return [];
+      var parsed = JSON.parse(raw);
+      if (!Array.isArray(parsed)) {
+        localStorage.removeItem(STORAGE_KEY);
+        return [];
+      }
+      return parsed;
+    } catch (e) {
+      try { localStorage.removeItem(STORAGE_KEY); } catch (ignore) {}
+      return [];
+    }
+  }
+
+  function markUsed(word) {
+    var used = getUsedWords();
+    if (used.indexOf(word) === -1) {
+      used.push(word);
+    }
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(used));
+    } catch (e) {}
+  }
+
+  function pickUnusedWord(words) {
+    var used = getUsedWords();
+    var available = words.filter(function (w) {
+      return used.indexOf(w) === -1;
+    });
+
+    // If all words used, reset and use full list
+    if (available.length === 0) {
+      reset();
+      available = words.slice();
+    }
+
+    return available[Math.floor(Math.random() * available.length)];
+  }
+
+  function reset() {
+    try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+  }
+
+  return {
+    getUsedWords: getUsedWords,
+    markUsed: markUsed,
+    pickUnusedWord: pickUnusedWord,
+    reset: reset
+  };
+})();
+
 // ===== GameEngine Module =====
 
 /**
@@ -384,8 +442,10 @@ var Orchestrator = (function () {
         UI.revealRow(revealRow, result.feedback, function () {
           UI.updateKeyboard(getKeyboardStatuses(gameState));
           if (gameState.status === 'won') {
+            WordTracker.markUsed(gameState.targetWord);
             UI.showGameOver(true, gameState.targetWord, gameState.guesses.length);
           } else if (gameState.status === 'lost') {
+            WordTracker.markUsed(gameState.targetWord);
             UI.showGameOver(false, gameState.targetWord, gameState.guesses.length);
           }
         });
@@ -400,7 +460,7 @@ var Orchestrator = (function () {
   }
 
   function startNewRound() {
-    var target = pickRandomWord(wordBank);
+    var target = WordTracker.pickUnusedWord(wordBank);
     gameState = createGame(target);
     UI.resetUI();
   }
@@ -472,6 +532,29 @@ if (typeof document !== 'undefined') {
     document.addEventListener('contextmenu', function (e) {
       e.preventDefault();
     });
+
+    // Settings menu toggle
+    var settingsBtn = document.getElementById('wordle-settings-btn');
+    var settingsMenu = document.getElementById('wordle-settings-menu');
+    if (settingsBtn && settingsMenu) {
+      settingsBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        settingsMenu.classList.toggle('hidden');
+      });
+      document.addEventListener('click', function () {
+        settingsMenu.classList.add('hidden');
+      });
+    }
+
+    // Reset words button
+    var resetWordsBtn = document.getElementById('reset-words-btn');
+    if (resetWordsBtn) {
+      resetWordsBtn.addEventListener('click', function () {
+        WordTracker.reset();
+        settingsMenu.classList.add('hidden');
+        alert('Word list has been reset! All words are available again.');
+      });
+    }
   });
 }
 
@@ -481,6 +564,7 @@ if (typeof module !== 'undefined' && module.exports) {
     isValidWord: isValidWord,
     loadWordBank: loadWordBank,
     pickRandomWord: pickRandomWord,
+    WordTracker: WordTracker,
     createGame: createGame,
     addLetter: addLetter,
     deleteLetter: deleteLetter,
