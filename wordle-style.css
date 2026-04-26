@@ -291,6 +291,34 @@ body {
   text-align: center;
   max-width: 340px;
   width: 90%;
+  position: relative;
+}
+
+#close-overlay-btn {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  color: var(--grey);
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 50%;
+  transition: background 0.15s, color 0.15s;
+}
+
+#close-overlay-btn:hover {
+  background: rgba(0, 0, 0, 0.08);
+  color: var(--text-dark);
+}
+
+#game-over-word {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--green);
+  letter-spacing: 4px;
+  margin-bottom: 20px;
 }
 
 #game-over-message {

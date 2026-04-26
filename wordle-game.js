@@ -300,11 +300,15 @@ var UI = (function () {
   function showGameOver(won, targetWord, guessCount) {
     var overlay = document.getElementById('game-over-overlay');
     var msgEl = document.getElementById('game-over-message');
+    var wordEl = document.getElementById('game-over-word');
     if (!overlay || !msgEl) return;
     if (won) {
-      msgEl.innerHTML = '🎉 Amazing! You got it in ' + guessCount + ' guess' + (guessCount !== 1 ? 'es' : '') + '!';
+      msgEl.textContent = '🎉 Amazing! You got it in ' + guessCount + ' guess' + (guessCount !== 1 ? 'es' : '') + '!';
     } else {
-      msgEl.innerHTML = '😢 So close! The word was <strong>' + targetWord + '</strong>';
+      msgEl.textContent = '😢 So close! Better luck next time!';
+    }
+    if (wordEl) {
+      wordEl.textContent = targetWord;
     }
     overlay.classList.remove('hidden');
   }
@@ -440,6 +444,14 @@ var Orchestrator = (function () {
     if (playAgainBtn) {
       playAgainBtn.addEventListener('click', function () {
         startNewRound();
+      });
+    }
+
+    // Close overlay button — lets player review their game
+    var closeBtn = document.getElementById('close-overlay-btn');
+    if (closeBtn) {
+      closeBtn.addEventListener('click', function () {
+        document.getElementById('game-over-overlay').classList.add('hidden');
       });
     }
   }
